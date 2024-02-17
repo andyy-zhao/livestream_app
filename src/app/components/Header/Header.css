@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    padding: 1.2rem 3rem;
+    width: 100%;
+    background: #222;
+    align-items: center;
+    position: fixed;
+    box-sizing: border-box; /* padding is included in the width calculation so no overflow */
+}
+
+.domain {
+    color: #F5F5F5;
+    padding-left: 1rem;
+}
+
+.domain-icon {
+    height: 2em;
+}
+
+.domain-container {
+    display:flex;
+    vertical-align: middle;
+}
+
+.header-btn-group {
+    display: flex;
+    margin-left: auto;
+}

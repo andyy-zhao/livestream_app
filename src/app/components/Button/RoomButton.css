@@ -1,0 +1,33 @@
+.room-button {
+    background-color: #6441A5;
+    height: 2.5em;
+    display: block;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: none;
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+.room-button:hover {
+    background-color: #451f8d;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.join-room-button {
+    background: none;
+    color: #F5F5F5;
+    font-weight: bold;
+    border: none;
+    height: 2.5em;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+}
+
+.join-room-button:hover {
+    color: #7853bc;
+    transition: 0.2s;
+    cursor:pointer;
+}
